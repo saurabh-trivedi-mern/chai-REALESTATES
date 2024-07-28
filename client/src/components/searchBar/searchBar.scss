@@ -5,8 +5,8 @@
 
 
     button {
-      padding: 16px 36px;
-      border: 1px solid #999;
+      padding: 16px 37.3px;
+      border: 3px solid #230202;
       border-bottom: none;
       cursor: pointer;
       background-color: white;
@@ -29,11 +29,13 @@
   }
 
   form {
-    border: 1px solid #999;
+    border: 3px solid #230202;
     display: flex;
     justify-content: space-between;
     height: 64px;
     gap: 5px;
+    background-color: #230202;
+    border-radius: 0px 10px 10px 0px;
 
     @include sm {
       flex-direction: column;
@@ -74,7 +76,7 @@
 
     a{
       flex: 1;
-      background-color: #ff6e46;
+      background-color: #230202;
       display: flex;
       align-items: center;
       justify-content: center;
@@ -82,7 +84,7 @@
       button {
         border: none;
         cursor: pointer;
-        background-color: #ff6e46;
+        background-color: #230202;
         
         @include sm{
           padding: 10px;

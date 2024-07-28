@@ -22,17 +22,18 @@ nav {
     flex: 3;
     display: flex;
     align-items: center;
-    gap: 50px;
+    gap: 40px;
 
     .logo {
       font-weight: bold;
       font-size: 20px;
       display: flex;
       align-items: center;
-      gap: 10px;
+      gap: 2px;
 
       img {
-        width: 28px;
+        width: 100px;
+        height: 100px;
       }
 
       span {
@@ -51,7 +52,7 @@ nav {
     display: flex;
     align-items: center;
     justify-content: flex-end;
-    background-color: #ff6e46;
+    background-color: black;
     height: 100%;
     border-radius: 0px 0px 20px 20px;
 

@@ -18,7 +18,7 @@ function Navbar() {
     <nav>
       <div className="left">
         <a href="/" className="logo">
-          <img src="/logo.png" alt="" />
+          <img src="/logo.png" className="logoimg" alt="" />
           <span>CHAI-REALESTATES</span>
         </a>
         <a href="/">Home</a>

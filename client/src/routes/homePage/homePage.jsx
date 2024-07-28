@@ -15,11 +15,11 @@ function HomePage() {
       <div className="textContainer">
         <div className="wrapper">
           <h1 className="title">Find A Home For You, Not Just A Property.</h1>
+          <SearchBar />
           <p>
           Your journey to homeownership starts here. The answer to your real estate needs ends here. 
           Buying a home: the best decision you'll make since sliced bread.
           </p>
-          <SearchBar />
           <div className="boxes">
             <div className="box">
               <h1>7+</h1>
