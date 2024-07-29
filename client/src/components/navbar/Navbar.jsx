@@ -22,9 +22,9 @@ function Navbar() {
           <span>CHAI-REALESTATES</span>
         </a>
         <a href="/">Home</a>
-        <a href="/">About</a>
+        <a href="/creator">Creator</a>
         <a href="/">Contact</a>
-        <a href="/">Agents</a>
+        {/* <a href="/">Agents</a> */}
       </div>
       <div className="right">
         {currentUser ? (

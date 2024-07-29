@@ -8,6 +8,7 @@ import Login from "./routes/login/login";
 import Register from "./routes/register/register";
 import ProfileUpdatePage from "./routes/profileUpdatePage/profileUpdatePage";
 import NewPostPage from "./routes/newPostPage/newPostPage";
+import Creator from "./routes/creator/page";
 import { listPageLoader, profilePageLoader, singlePageLoader } from "./lib/loaders";
 
 function App() {
@@ -38,6 +39,10 @@ function App() {
         {
           path: "/register",
           element: <Register />,
+        },
+        {
+          path: "/creator",
+          element: <Creator />,
         },
       ],
     },
